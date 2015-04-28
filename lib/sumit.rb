@@ -1,8 +1,10 @@
 require "sumit/version"
 
-class Sumit
+module Sumit
   # Your code goes here...
-  def self.ipsum  
-    "Lorem ipsum dolor sit amet, consectetur adipisicing ...."  
-  end  
+  class Test
+	  def self.ipsum  
+	    "Lorem ipsum dolor sit amet, consectetur adipisicing ...."  
+	  end  
+  end
 end
